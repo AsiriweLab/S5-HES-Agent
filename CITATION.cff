@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "S5-HES Agent: A Society 5.0-driven Agentic Framework for Smart Home Environment Simulation"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - name: "Smart-HES Research Team"
+    affiliation: "AsiriweLab"
+repository-code: "https://github.com/AsiriweLab/S5-HES-Agent"
+license: MIT
+version: 1.0.0
+date-released: "2026-02-16"
+keywords:
+  - smart-home
+  - iot-security
+  - simulation
+  - retrieval-augmented-generation
+  - multi-agent
+  - society-5-0
+  - mitre-attack
+abstract: >-
+  S5-HES Agent is an agentic RAG-enhanced framework for simulating smart home
+  environments with integrated IoT security analysis. It combines multi-provider
+  LLM orchestration, hybrid retrieval-augmented generation, realistic device and
+  behavioral simulation, and MITRE ATT&CK-aligned threat modeling to provide a
+  comprehensive platform for smart home security research.

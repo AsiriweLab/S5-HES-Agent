@@ -1,0 +1,106 @@
+[
+  {
+    "key": "simulation.max_duration",
+    "value": "test_value",
+    "type": "number",
+    "category": "Simulation",
+    "description": "Maximum simulation duration in minutes",
+    "editable": true
+  },
+  {
+    "key": "simulation.tick_interval",
+    "value": 1000,
+    "type": "number",
+    "category": "Simulation",
+    "description": "Simulation tick interval in milliseconds",
+    "editable": true
+  },
+  {
+    "key": "security.session_timeout",
+    "value": 3600,
+    "type": "number",
+    "category": "Security",
+    "description": "Session timeout in seconds",
+    "editable": true
+  },
+  {
+    "key": "security.max_login_attempts",
+    "value": 5,
+    "type": "number",
+    "category": "Security",
+    "description": "Max failed login attempts before lockout",
+    "editable": true
+  },
+  {
+    "key": "security.require_mfa",
+    "value": false,
+    "type": "boolean",
+    "category": "Security",
+    "description": "Require MFA for all users",
+    "editable": true
+  },
+  {
+    "key": "privacy.default_epsilon",
+    "value": 0.1,
+    "type": "number",
+    "category": "Privacy",
+    "description": "Default differential privacy epsilon",
+    "editable": true
+  },
+  {
+    "key": "privacy.enable_anonymization",
+    "value": true,
+    "type": "boolean",
+    "category": "Privacy",
+    "description": "Enable data anonymization",
+    "editable": true
+  },
+  {
+    "key": "mesh.max_nodes",
+    "value": 100,
+    "type": "number",
+    "category": "Mesh Network",
+    "description": "Maximum mesh network nodes",
+    "editable": true
+  },
+  {
+    "key": "mesh.beacon_interval",
+    "value": 30,
+    "type": "number",
+    "category": "Mesh Network",
+    "description": "Beacon interval in seconds",
+    "editable": true
+  },
+  {
+    "key": "api.rate_limit",
+    "value": 100,
+    "type": "number",
+    "category": "API",
+    "description": "API rate limit per minute",
+    "editable": true
+  },
+  {
+    "key": "api.cors_enabled",
+    "value": true,
+    "type": "boolean",
+    "category": "API",
+    "description": "Enable CORS",
+    "editable": true
+  },
+  {
+    "key": "logging.level",
+    "value": "INFO",
+    "type": "string",
+    "category": "Logging",
+    "description": "Log level (DEBUG, INFO, WARNING, ERROR)",
+    "editable": true
+  },
+  {
+    "key": "logging.retention_days",
+    "value": 30,
+    "type": "number",
+    "category": "Logging",
+    "description": "Log retention in days",
+    "editable": true
+  }
+]

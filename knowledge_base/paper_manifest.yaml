@@ -1,0 +1,650 @@
+# =============================================================================
+# RAG Paper Manifest - S5-HES Knowledge Base
+# =============================================================================
+# Generated: 2026-02-03
+# Purpose: Maps each document to category, source, and tags for proper ingestion
+#
+# Categories: academic, threat_intel, device_specs, documentation
+# Status: pending = not yet copied, ready = copied to target folder
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# BASELINE DATASETS (HIGH PRIORITY)
+# Target: academic/datasets/
+# -----------------------------------------------------------------------------
+datasets:
+  - filename: "T-001_N_BaIoT_Dataset_Paper.pdf"
+    title: "N-BaIoT: Network-based Detection of IoT Botnet Attacks"
+    source: "arXiv:1805.03409"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "botnet", "iot", "network-traffic", "n-baiot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "T-003_TON_IoT_Dataset_paper.pdf"
+    title: "TON_IoT Telemetry Dataset"
+    source: "IEEE DataPort"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "iot", "telemetry", "ton-iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "T-005_Bot_IoT_Dataset_paper.pdf"
+    title: "Bot-IoT Dataset for IoT Botnet Detection"
+    source: "UNSW Sydney"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "botnet", "iot", "bot-iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "T-006_UNSW_NB15_Dataset_paper.pdf"
+    title: "UNSW-NB15: A Comprehensive Network Intrusion Dataset"
+    source: "UNSW Sydney"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "intrusion-detection", "network-traffic", "unsw-nb15"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "T008_SDHAR_HOME_Dataset_paper.pdf"
+    title: "SDHAR-HOME: A Sensor Dataset for Human Activity Recognition at Home"
+    source: "DOI:10.3390/s22218109"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "smart-home", "activity-recognition", "sensors", "sdhar-home"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "T011_IoT_Building_Dataset_paper.pdf"
+    title: "IoT Building Dataset"
+    source: "Academic"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "iot", "building", "smart-building"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "sensors-22-08109-v2 (1).pdf"
+    title: "SDHAR-HOME Dataset Paper (duplicate)"
+    source: "DOI:10.3390/s22218109"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "smart-home", "activity-recognition"]
+    priority: "LOW"
+    status: "pending"
+    note: "Duplicate of T008"
+
+  - filename: "1-s2.0-S2352340924001379-main.pdf"
+    title: "Internet of Things Dataset for Home Renewable Energy Management"
+    source: "DOI:10.1016/j.dib.2024.110137"
+    category: "academic"
+    subcategory: "datasets"
+    target_path: "academic/datasets/"
+    tags: ["dataset", "iot", "energy", "smart-home"]
+    priority: "MEDIUM"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# SECURITY SURVEYS (HIGH PRIORITY)
+# Target: academic/surveys/
+# -----------------------------------------------------------------------------
+surveys:
+  - filename: "Smart_Home_IoT_Cybersecurity_Survey_A_Systematic_Mapping.pdf"
+    title: "Smart Home IoT Cybersecurity Survey: A Systematic Mapping"
+    source: "IEEE 2023"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "smart-home", "iot", "cybersecurity"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "Journal of Electrical and Computer Engineering - 2024 - Magara - Internet of Things  IoT  of Smart Homes  Privacy and.pdf"
+    title: "Internet of Things (IoT) of Smart Homes: Privacy and Security"
+    source: "DOI:10.1155/2024/7716956"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "iot", "smart-home", "privacy", "security"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "electronics-13-03601.pdf"
+    title: "Machine Learning-Based Intrusion Detection Methods in IoT Systems: A Comprehensive Review"
+    source: "DOI:10.3390/electronics13183601"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "machine-learning", "intrusion-detection", "iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "Engineering Reports - 2025 - Morshedi - A Comprehensive Review of Deep Learning Techniques for Anomaly Detection in IoT.pdf"
+    title: "A Comprehensive Review of Deep Learning Techniques for Anomaly Detection in IoT Networks"
+    source: "DOI:10.1002/eng2.70415"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "deep-learning", "anomaly-detection", "iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "s13677-018-0123-6.pdf"
+    title: "Intrusion Detection Systems for IoT-Based Smart Environments: A Survey"
+    source: "DOI:10.1186/s13677-018-0123-6"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "intrusion-detection", "iot", "smart-environments"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "s40507-025-00414-6.pdf"
+    title: "A Systematic Review of Anomaly Detection in IoT Security: Towards Quantum ML"
+    source: "DOI:10.1140/epjqt/s40507-025-00414-6"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "anomaly-detection", "iot", "quantum-ml"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "2111.04418v1.pdf"
+    title: "A Survey of Human Activity Recognition in Smart Homes"
+    source: "arXiv:2111.04418"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "activity-recognition", "smart-home"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "A-survey-on-intrusion-detection-system-in-IoT_2025_Cyber-Security-and-Applic.pdf"
+    title: "A Survey on Intrusion Detection System in IoT Networks"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "intrusion-detection", "iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "Survey-of-deep-learning-approaches-for-securing-indust_2025_Cyber-Security-a.pdf"
+    title: "Survey of Deep Learning Approaches for Securing Industrial IoT"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "deep-learning", "iiot", "security"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "A-survey-on-security-in-internet-of-things-with-a-focus-on-_2022_Internet-of.pdf"
+    title: "A Survey on Security in Internet of Things"
+    source: "Internet of Things Journal 2022"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "iot", "security"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "IoT-anomaly-detection-methods-and-applications--A-sur_2022_Internet-of-Thing.pdf"
+    title: "IoT Anomaly Detection Methods and Applications: A Survey"
+    source: "DOI:10.1016/j.iot.2022.100622"
+    category: "academic"
+    subcategory: "surveys"
+    target_path: "academic/surveys/"
+    tags: ["survey", "anomaly-detection", "iot"]
+    priority: "HIGH"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# BOTNET & MALWARE ANALYSIS (HIGH PRIORITY)
+# Target: threat_intel/botnets/
+# -----------------------------------------------------------------------------
+botnets:
+  - filename: "sec17-antonakakis.pdf"
+    title: "Understanding the Mirai Botnet"
+    source: "USENIX Security 2017"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["mirai", "botnet", "iot", "ddos", "malware"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "An_In-Depth_Analysis_of_the_Mirai_Botnet.pdf"
+    title: "An In-Depth Analysis of the Mirai Botnet"
+    source: "IEEE 2018"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["mirai", "botnet", "iot", "analysis"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "2508.01909v1.pdf"
+    title: "Analyzing The Mirai IoT Botnet and Its Recent Variants"
+    source: "arXiv:2508.01909"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["mirai", "botnet", "iot", "variants"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "2020-Choo-IoT-botnet-forensics-comprehensive-dig-forensic-case-study.pdf"
+    title: "IoT Botnet Forensics: A Comprehensive Digital Forensic Case Study"
+    source: "Forensic Science International: Digital Investigation 2020"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["mirai", "botnet", "forensics", "iot"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "The-evolution-of-Mirai-botnet-scans-ove_2023_Journal-of-Information-Security.pdf"
+    title: "The Evolution of Mirai Botnet Scans Over a Six-Year Period"
+    source: "DOI:10.1016/j.cose.2023.103451"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["mirai", "botnet", "evolution", "scanning"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "DetectingBotnetsbyModelingtheirNetworkBehaviors.pdf"
+    title: "Detecting Botnets by Modeling their Network Behaviors"
+    source: "Academic"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["botnet", "detection", "network-behavior"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "A-comprehensive-literature-review-on-ransomware-de_2025_Cyber-Security-and-A.pdf"
+    title: "A Comprehensive Literature Review on Ransomware Detection"
+    source: "Cyber Security and Applications 2025"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["ransomware", "detection", "malware"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "A-comprehensive-investigation-into-robust-malware-d_2025_Cyber-Security-and-.pdf"
+    title: "A Comprehensive Investigation into Robust Malware Detection"
+    source: "Cyber Security and Applications 2025"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["malware", "detection", "robust"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Towards-superior-android-ransomware-detection--An-en_2025_Cyber-Security-and.pdf"
+    title: "Towards Superior Android Ransomware Detection"
+    source: "Cyber Security and Applications 2025"
+    category: "threat_intel"
+    subcategory: "botnets"
+    target_path: "threat_intel/botnets/"
+    tags: ["ransomware", "android", "detection"]
+    priority: "LOW"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# METHODS & TECHNIQUES (MEDIUM PRIORITY)
+# Target: academic/methods/
+# -----------------------------------------------------------------------------
+methods:
+  - filename: "2412.20574v1.pdf"
+    title: "A Survey on Time-Series Distance Measures"
+    source: "arXiv:2412.20574"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["time-series", "similarity", "dtw", "metrics"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "s41598-025-29331-5.pdf"
+    title: "Similarity Measure of Time Series Based on Angle-Distance Penalized DTW"
+    source: "DOI:10.1038/s41598-025-29331-5"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["time-series", "similarity", "dtw"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "1-s2.0-S2352711023002236-main.pdf"
+    title: "SimilarityTS: Toolkit for Evaluation of Similarity for Multivariate Time Series"
+    source: "DOI:10.1016/j.softx.2023.101499"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["time-series", "similarity", "toolkit"]
+    priority: "LOW"
+    status: "pending"
+
+  - filename: "2406.10928v2.pdf"
+    title: "Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection"
+    source: "arXiv:2406.10928"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["anomaly-detection", "smart-home", "user-behavior", "unsupervised"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "A-behavioural-hierarchical-analysis-framework-in-a-smart-home_2023_Informati.pdf"
+    title: "A Behavioural Hierarchical Analysis Framework in a Smart Home"
+    source: "Information Fusion 2023"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["smart-home", "behavior-analysis", "hmm"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "3317549.3323413.pdf"
+    title: "Hestia: Simple Least Privilege Network Policies for Smart Homes"
+    source: "DOI:10.1145/3317549.3323413"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["smart-home", "network-security", "access-control"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "3708282.3708283.pdf"
+    title: "A Survey on IoT Security: Vulnerability Detection and Protection"
+    source: "DOI:10.1145/3708282.3708283"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iot", "security", "vulnerability"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "3725899.3725918.pdf"
+    title: "Addressing IoT Vulnerabilities in Smart Homes"
+    source: "DOI:10.1145/3725899.3725918"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iot", "smart-home", "vulnerability"]
+    priority: "MEDIUM"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# INTRUSION DETECTION SYSTEMS (MEDIUM PRIORITY)
+# Target: academic/methods/
+# -----------------------------------------------------------------------------
+ids_papers:
+  - filename: "An-explainable-ensemble-based-intrusion-detection-syst_2025_Cyber-Security-a.pdf"
+    title: "An Explainable Ensemble-Based Intrusion Detection System"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["intrusion-detection", "ensemble", "explainable-ai"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Federated-learning-based-intrusion-detection-system-for-t_2025_Cyber-Securit.pdf"
+    title: "Federated Learning-Based Intrusion Detection System"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["intrusion-detection", "federated-learning"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Cyber-intrusion-detection-using-ensemble-of-deep-learning_2025_Cyber-Securit.pdf"
+    title: "Cyber Intrusion Detection Using Ensemble of Deep Learning"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["intrusion-detection", "deep-learning", "ensemble"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Automatic-intrusion-detection-model-with-secure-data-stora_2025_Cyber-Securi.pdf"
+    title: "Automatic Intrusion Detection Model with Secure Data Storage"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["intrusion-detection", "data-storage", "security"]
+    priority: "LOW"
+    status: "pending"
+
+  - filename: "Corrigendum-to--A-ZigBee-intrusion-detection-system-for-IoT-usi_2022_Interne.pdf"
+    title: "A ZigBee Intrusion Detection System for IoT"
+    source: "Internet of Things Journal 2022"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["intrusion-detection", "zigbee", "iot"]
+    priority: "MEDIUM"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# DDoS & NETWORK SECURITY (MEDIUM PRIORITY)
+# Target: academic/methods/
+# -----------------------------------------------------------------------------
+network_security:
+  - filename: "Comparison-of-mitigating-DDoS-attacks-in-software-de_2025_Cyber-Security-and.pdf"
+    title: "Comparison of Mitigating DDoS Attacks in SDN"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["ddos", "sdn", "mitigation"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Design-of-distributed-denial-of-service-attack-prevent_2025_Cyber-Security-a.pdf"
+    title: "Design of DDoS Attack Prevention"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["ddos", "prevention", "design"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Deep-learning-driven-defense-strategies-for-mitigating_2025_Cyber-Security-a.pdf"
+    title: "Deep Learning-Driven Defense Strategies"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["deep-learning", "defense", "mitigation"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Leveraging-federated-learning-for-DoS-attack-detection-in_2025_Cyber-Securit.pdf"
+    title: "Leveraging Federated Learning for DoS Attack Detection"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["federated-learning", "dos", "detection"]
+    priority: "MEDIUM"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# IoT SECURITY METHODS (MEDIUM PRIORITY)
+# Target: academic/methods/
+# -----------------------------------------------------------------------------
+iot_security:
+  - filename: "Securing-IoT-devices-with-fast-and-energy-efficient-i_2025_Cyber-Security-an.pdf"
+    title: "Securing IoT Devices with Fast and Energy-Efficient Methods"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iot", "security", "energy-efficient"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Privacy-preserving-security-of-IoT-networks--A-compar_2025_Cyber-Security-an.pdf"
+    title: "Privacy-Preserving Security of IoT Networks"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iot", "privacy", "security"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "Enhancing-security-in-IIoT--RFID-authentication-protoco_2025_Cyber-Security-.pdf"
+    title: "Enhancing Security in IIoT: RFID Authentication Protocol"
+    source: "Cyber Security and Applications 2025"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iiot", "rfid", "authentication"]
+    priority: "LOW"
+    status: "pending"
+
+  - filename: "An-IoT-based-interoperable-architecture-for-wireless-biomoni_2022_Internet-o.pdf"
+    title: "An IoT-Based Interoperable Architecture for Wireless Biomonitoring"
+    source: "Internet of Things Journal 2022"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["iot", "architecture", "biomonitoring"]
+    priority: "LOW"
+    status: "pending"
+
+  - filename: "Attention-based-model-and-deep-reinforcement-learning-for-d_2022_Internet-of.pdf"
+    title: "Attention-Based Model and Deep Reinforcement Learning"
+    source: "Internet of Things Journal 2022"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["attention", "deep-rl", "iot"]
+    priority: "LOW"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# STRATOSPHERE IPS WEBSITE CONTENT
+# Target: threat_intel/stratosphere/
+# Note: These HTML files need curation - only ingest high-value pages
+# -----------------------------------------------------------------------------
+stratosphere_priority_pages:
+  - filename: "www.stratosphereips.org/datasets-iot23.html"
+    title: "IoT-23 Dataset Documentation"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["dataset", "iot", "malware", "stratosphere"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "www.stratosphereips.org/datasets-iot.html"
+    title: "Stratosphere IoT Datasets"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["dataset", "iot", "stratosphere"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "www.stratosphereips.org/datasets-malware.html"
+    title: "Stratosphere Malware Datasets"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["dataset", "malware", "stratosphere"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "www.stratosphereips.org/a-study-of-iot-malware.html"
+    title: "A Study of IoT Malware"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["iot", "malware", "research"]
+    priority: "HIGH"
+    status: "pending"
+
+  - filename: "www.stratosphereips.org/aposemat.html"
+    title: "Aposemat IoT-23 Project"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["iot", "malware", "aposemat"]
+    priority: "MEDIUM"
+    status: "pending"
+
+  - filename: "www.stratosphereips.org/iot-vulnerability-analysis.html"
+    title: "IoT Vulnerability Analysis"
+    category: "threat_intel"
+    subcategory: "stratosphere"
+    target_path: "threat_intel/stratosphere/"
+    tags: ["iot", "vulnerability", "analysis"]
+    priority: "HIGH"
+    status: "pending"
+
+# -----------------------------------------------------------------------------
+# DUPLICATES & LOW PRIORITY (Skip or deduplicate)
+# -----------------------------------------------------------------------------
+duplicates_and_low_priority:
+  - filename: "Journal of Electrical and Computer Engineering - 2024 - Magara - Internet of Things  IoT  of Smart Homes  Privacy and - Copy.pdf"
+    note: "Duplicate - skip"
+    status: "skip"
+
+# -----------------------------------------------------------------------------
+# INFORMATION FUSION PAPERS (May not be directly relevant)
+# Target: academic/methods/ (review for relevance)
+# -----------------------------------------------------------------------------
+information_fusion:
+  - filename: "Multimodal-sentiment-analysis-based-on-fusion-methods--_2023_Information-Fus.pdf"
+    title: "Multimodal Sentiment Analysis Based on Fusion Methods"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["multimodal", "sentiment", "fusion"]
+    priority: "LOW"
+    status: "pending"
+    note: "Review for relevance to S5-HES"
+
+  - filename: "Multi-sensor-integrated-navigation-positioning-systems-using-d_2023_Informat.pdf"
+    title: "Multi-Sensor Integrated Navigation Positioning Systems"
+    category: "academic"
+    subcategory: "methods"
+    target_path: "academic/methods/"
+    tags: ["multi-sensor", "navigation", "fusion"]
+    priority: "LOW"
+    status: "pending"
+    note: "Review for relevance to S5-HES"
+
+# =============================================================================
+# INGESTION SUMMARY
+# =============================================================================
+# HIGH Priority: 27 documents
+# MEDIUM Priority: 35 documents
+# LOW Priority: 15 documents
+# Skip (duplicates): 1 document
+# Total: 78 unique documents (excluding Stratosphere HTML bulk)
+#
+# Stratosphere HTML: ~486 files - recommend selective ingestion of key pages
+# =============================================================================

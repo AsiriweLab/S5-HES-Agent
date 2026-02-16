@@ -1,0 +1,121 @@
+documents:
+  # ===========================================================================
+  # IoT Security Fundamentals
+  # ===========================================================================
+  - title: "IoT Security Overview"
+    content: |
+      Internet of Things (IoT) security encompasses the protection of connected devices,
+      networks, and data from cyber threats. Smart home IoT devices present unique security
+      challenges due to their resource constraints, diverse protocols, and always-connected
+      nature.
+
+      Key security concerns include:
+      - Device authentication and identity management
+      - Data encryption in transit and at rest
+      - Firmware integrity and secure updates
+      - Network segmentation and access control
+      - Privacy protection and data minimization
+
+      The OWASP IoT Top 10 identifies critical vulnerabilities including weak passwords,
+      insecure network services, lack of secure update mechanisms, and insufficient
+      privacy protections.
+    category: "fundamentals"
+    source: "OWASP IoT Security Guidelines"
+    tags: ["iot", "security", "overview", "owasp"]
+
+  - title: "Smart Home Attack Surface"
+    content: |
+      Smart home environments present multiple attack vectors that adversaries can exploit:
+
+      1. Device Layer Attacks:
+         - Physical tampering and hardware exploitation
+         - Firmware extraction and reverse engineering
+         - Side-channel attacks on cryptographic implementations
+
+      2. Network Layer Attacks:
+         - Man-in-the-middle attacks on local communications
+         - Protocol vulnerabilities (Zigbee, Z-Wave, WiFi, BLE)
+         - DNS hijacking and ARP spoofing
+
+      3. Cloud Layer Attacks:
+         - API vulnerabilities and improper access controls
+         - Credential theft and session hijacking
+         - Data exfiltration from cloud backends
+
+      4. User Interface Attacks:
+         - Mobile app vulnerabilities
+         - Voice command injection
+         - Social engineering targeting home occupants
+    category: "threats"
+    source: "IEEE IoT Security Research"
+    tags: ["attack-surface", "threats", "smart-home"]
+
+  - title: "Common IoT Protocols Security"
+    content: |
+      Smart home devices communicate using various protocols, each with distinct
+      security characteristics:
+
+      WiFi (802.11):
+      - Supports WPA3 encryption for strong protection
+      - Vulnerable to deauthentication attacks
+      - Can expose devices to internet-based threats
+
+      Zigbee (IEEE 802.15.4):
+      - Uses AES-128 encryption at network layer
+      - Susceptible to key extraction attacks
+      - Network-wide key sharing can compromise all devices
+
+      Z-Wave:
+      - S2 security framework provides strong encryption
+      - Legacy S0 devices use weak encryption
+      - Backward compatibility creates security gaps
+
+      Bluetooth Low Energy (BLE):
+      - LESC provides authenticated pairing
+      - Legacy pairing modes are vulnerable
+      - Limited range provides some physical security
+
+      Matter (Project CHIP):
+      - Modern security-first design
+      - Certificate-based device attestation
+      - Secure commissioning protocols
+    category: "protocols"
+    source: "Protocol Security Analysis"
+    tags: ["protocols", "zigbee", "z-wave", "wifi", "ble", "matter"]
+
+  - title: "IoT Device Categories in Smart Homes"
+    content: |
+      Smart home IoT devices can be categorized by function and security requirements:
+
+      Security Devices:
+      - Smart locks, cameras, alarm systems
+      - Require highest security standards
+      - Direct physical security implications
+
+      Environmental Controls:
+      - Thermostats, HVAC systems, smart blinds
+      - Energy consumption data reveals occupancy
+      - Comfort and efficiency focus
+
+      Lighting Systems:
+      - Smart bulbs, switches, dimmers
+      - Often used as entry points due to weak security
+      - Can reveal presence patterns
+
+      Entertainment Systems:
+      - Smart TVs, speakers, media players
+      - Often have microphones and cameras
+      - Complex software with large attack surface
+
+      Appliances:
+      - Smart refrigerators, washers, ovens
+      - Less frequently updated firmware
+      - May connect to manufacturer clouds
+
+      Energy Management:
+      - Smart meters, solar inverters, EV chargers
+      - Critical infrastructure connections
+      - High-value targets for attackers
+    category: "devices"
+    source: "Smart Home Device Classification"
+    tags: ["devices", "classification", "smart-home"]

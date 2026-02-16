@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Environment
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Large assets (download from Google Drive)
+backend/chroma_data/*.sqlite3
+backend/chroma_data/*/
+models/embeddings/*.bin
+models/embeddings/*.pt
+knowledge_base/papers/*.pdf
+knowledge_base/academic/**/*.pdf
+knowledge_base/device_specs/**/*.pdf
+knowledge_base/threat_intel/
+
+# Node
+node_modules/
+dist/
+
+# Backend runtime artifacts
+backend/data/
+backend/logs/
+
+# Internal (should never be present in public repo)
+.claude/
+evaluation/
+codex_evaluation/
+z_reports/
+docs/
+experiments/
+dataset_reviews/
+test_results/
+migration_exports/

@@ -1,0 +1,221 @@
+documents:
+  # ===========================================================================
+  # IoT Anomaly Detection Patterns
+  # ===========================================================================
+  - title: "Network Traffic Anomaly Detection"
+    content: |
+      Network Traffic Anomaly Detection for Smart Home IoT:
+
+      Baseline Metrics:
+      - Average packet size per device
+      - Communication frequency patterns
+      - Destination IP/port distributions
+      - Protocol usage ratios
+      - Time-of-day traffic patterns
+
+      Anomaly Indicators:
+      1. Volume Anomalies:
+         - Sudden increase in outbound traffic
+         - Large data transfers from low-bandwidth devices
+         - Continuous high-volume connections
+
+      2. Destination Anomalies:
+         - Connections to unknown IP addresses
+         - Communications with known malicious domains
+         - Unexpected geographic destinations
+
+      3. Protocol Anomalies:
+         - Non-standard ports for device type
+         - Encrypted traffic from typically unencrypted devices
+         - Protocol misuse or malformation
+
+      4. Temporal Anomalies:
+         - Activity during unusual hours
+         - Changed communication schedules
+         - Missing expected heartbeats
+
+      Detection Algorithms:
+      - Statistical threshold analysis
+      - Machine learning classification
+      - Time-series anomaly detection
+      - Graph-based community detection
+    category: "detection"
+    source: "Network Security Monitoring"
+    tags: ["detection", "network", "anomaly", "traffic-analysis"]
+
+  - title: "Device Behavior Anomaly Detection"
+    content: |
+      Device Behavior Anomaly Detection:
+
+      Normal Behavior Profiling:
+      - Typical usage patterns (on/off cycles)
+      - Expected sensor reading ranges
+      - Standard response times
+      - Usual interaction sequences
+
+      Behavioral Anomaly Types:
+
+      1. State Anomalies:
+         - Unexpected device state changes
+         - States impossible for device type
+         - Rapid state oscillation
+
+      2. Timing Anomalies:
+         - Actions at unusual times
+         - Changed periodic behaviors
+         - Delayed responses to commands
+
+      3. Interaction Anomalies:
+         - Unusual device-to-device communication
+         - Unexpected automation triggers
+         - Commands from unknown sources
+
+      4. Resource Anomalies:
+         - Increased power consumption
+         - Memory or CPU spikes
+         - Battery drain acceleration
+
+      Detection Approaches:
+      - Rule-based detection for known patterns
+      - Markov chain models for state transitions
+      - Clustering for device grouping
+      - Deep learning for complex patterns
+    category: "detection"
+    source: "IoT Behavior Analysis"
+    tags: ["detection", "behavior", "anomaly", "device-monitoring"]
+
+  - title: "Authentication Anomaly Detection"
+    content: |
+      Authentication and Access Anomaly Detection:
+
+      Authentication Monitoring Points:
+      - Local device authentication
+      - Cloud service login attempts
+      - API access patterns
+      - Mobile app sessions
+
+      Anomaly Indicators:
+
+      1. Credential Anomalies:
+         - Failed authentication attempts
+         - Brute force patterns
+         - Credential stuffing signatures
+         - Password spray attacks
+
+      2. Session Anomalies:
+         - Multiple concurrent sessions
+         - Session hijacking indicators
+         - Unusual session durations
+         - Geographic impossibilities
+
+      3. Access Pattern Anomalies:
+         - Access from new devices
+         - Unusual API call sequences
+         - Privilege escalation attempts
+         - Access to sensitive functions
+
+      4. Identity Anomalies:
+         - Account enumeration attempts
+         - Impersonation indicators
+         - Token manipulation
+         - Certificate anomalies
+
+      Detection Methods:
+      - Failed attempt thresholds
+      - Velocity checks
+      - Behavioral biometrics
+      - Risk-based authentication
+    category: "detection"
+    source: "Identity Security Research"
+    tags: ["detection", "authentication", "access-control", "identity"]
+
+  - title: "Energy Consumption Anomaly Detection"
+    content: |
+      Energy-Based Anomaly Detection for IoT Security:
+
+      Energy Profiling Approach:
+      Smart home devices have characteristic energy consumption patterns that
+      can be used to detect compromises or malfunctions.
+
+      Baseline Metrics:
+      - Idle power consumption
+      - Active state power draw
+      - Transition energy costs
+      - Daily consumption patterns
+
+      Anomaly Categories:
+
+      1. Cryptocurrency Mining Detection:
+         - Sustained high CPU usage
+         - Elevated power consumption
+         - Increased thermal output
+         - Pattern matches mining behavior
+
+      2. Botnet Activity Detection:
+         - Periodic power spikes (beacon activity)
+         - Network-correlated power patterns
+         - DDoS participation signatures
+
+      3. Malware Detection:
+         - Unexpected processing activity
+         - Background computation
+         - Unusual memory access patterns
+
+      4. Data Exfiltration Detection:
+         - Radio transmission power patterns
+         - Network interface activity
+         - Storage access patterns
+
+      Research Applications:
+      - Non-intrusive load monitoring (NILM)
+      - Side-channel analysis
+      - Power analysis attacks detection
+    category: "detection"
+    source: "Energy-Based Security Research"
+    tags: ["detection", "energy", "power-analysis", "side-channel"]
+
+  - title: "Correlation-Based Threat Detection"
+    content: |
+      Multi-Source Correlation for Threat Detection:
+
+      Correlation Principles:
+      Individual anomalies may be benign, but correlated events across
+      multiple sources often indicate genuine threats.
+
+      Data Sources for Correlation:
+      - Network traffic logs
+      - Device state changes
+      - Authentication events
+      - Energy consumption data
+      - External threat intelligence
+
+      Correlation Patterns:
+
+      1. Attack Chain Correlation:
+         - Reconnaissance followed by exploitation
+         - Lateral movement indicators
+         - Exfiltration preparation
+
+      2. Multi-Device Correlation:
+         - Simultaneous anomalies across devices
+         - Propagation pattern matching
+         - Coordinated attack indicators
+
+      3. Temporal Correlation:
+         - Time-linked suspicious events
+         - Attack timing patterns
+         - Campaign identification
+
+      4. Threat Intelligence Correlation:
+         - Known attacker infrastructure
+         - Malware signature matching
+         - Vulnerability exploitation timing
+
+      Implementation Considerations:
+      - Event normalization
+      - Time synchronization
+      - False positive management
+      - Alert prioritization
+    category: "detection"
+    source: "SIEM and Correlation Research"
+    tags: ["detection", "correlation", "siem", "threat-intelligence"]

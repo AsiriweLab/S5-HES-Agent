@@ -1,0 +1,198 @@
+documents:
+  # ===========================================================================
+  # IoT Threat Scenarios for Simulation
+  # ===========================================================================
+  - title: "Data Breach Scenario"
+    content: |
+      Data Breach Attack Pattern:
+
+      Description: Unauthorized exfiltration of sensitive data from smart home devices
+      or their associated cloud services.
+
+      Attack Stages:
+      1. Reconnaissance: Identify connected devices and data flows
+      2. Initial Access: Exploit vulnerable device or cloud API
+      3. Lateral Movement: Pivot to access other devices/data
+      4. Data Collection: Gather sensitive information
+      5. Exfiltration: Transfer data to attacker-controlled server
+
+      Targeted Data:
+      - Video/audio recordings from cameras and speakers
+      - Occupancy patterns and daily routines
+      - Access credentials and authentication tokens
+      - Personal information and usage habits
+      - Energy consumption profiles
+
+      Detection Indicators:
+      - Unusual outbound network traffic
+      - Unauthorized API access attempts
+      - Abnormal data transfer volumes
+      - Suspicious account activity
+
+      Simulation Parameters:
+      - Duration: 1-7 days (reconnaissance to exfiltration)
+      - Network traffic: 10-100 MB anomalous transfers
+      - Affected devices: 1-5 devices per attack
+    category: "threats"
+    source: "MITRE ATT&CK for IoT"
+    tags: ["data-breach", "exfiltration", "threat-scenario"]
+
+  - title: "Botnet Recruitment Scenario"
+    content: |
+      IoT Botnet Recruitment Attack Pattern:
+
+      Description: Compromising smart home devices to incorporate them into a
+      distributed botnet for DDoS attacks or other malicious purposes.
+
+      Attack Stages:
+      1. Scanning: Identify vulnerable devices on the internet
+      2. Exploitation: Use default credentials or known vulnerabilities
+      3. Payload Delivery: Install botnet malware
+      4. Command & Control: Establish C2 communication
+      5. Activation: Device participates in coordinated attacks
+
+      Common Vulnerabilities Exploited:
+      - Default or weak passwords
+      - Unpatched firmware vulnerabilities
+      - Exposed management interfaces
+      - Telnet/SSH with weak authentication
+
+      Behavioral Indicators:
+      - Increased CPU utilization
+      - Unusual network connections to C2 servers
+      - DNS requests to suspicious domains
+      - Participation in port scanning activities
+
+      Notable Examples:
+      - Mirai botnet (2016): Exploited default credentials
+      - Mozi botnet (2019): P2P-based IoT botnet
+      - Dark Nexus (2020): Advanced IoT botnet
+
+      Simulation Parameters:
+      - Infection time: Minutes to hours
+      - C2 beacon interval: 60-300 seconds
+      - Resource impact: 10-50% CPU increase
+    category: "threats"
+    source: "Botnet Research Literature"
+    tags: ["botnet", "mirai", "ddos", "threat-scenario"]
+
+  - title: "Man-in-the-Middle Attack Scenario"
+    content: |
+      Man-in-the-Middle (MitM) Attack Pattern:
+
+      Description: Intercepting and potentially modifying communications between
+      smart home devices and their control systems or cloud services.
+
+      Attack Stages:
+      1. Position: Gain network access (physical or via compromised device)
+      2. Intercept: Capture traffic using ARP spoofing or rogue AP
+      3. Decrypt: Break or bypass encryption if possible
+      4. Modify: Alter commands or data in transit
+      5. Relay: Forward modified traffic to intended recipient
+
+      Attack Variants:
+      - Local network MitM: Between device and hub/gateway
+      - Cloud MitM: Between device and cloud service
+      - Protocol-specific: Zigbee network key extraction
+
+      Potential Impacts:
+      - Command injection to control devices
+      - Credential theft for account takeover
+      - Privacy violation through traffic analysis
+      - False data injection for manipulation
+
+      Detection Methods:
+      - Certificate pinning validation
+      - Traffic anomaly detection
+      - ARP table monitoring
+      - Encryption verification
+
+      Simulation Parameters:
+      - Setup time: 5-30 minutes
+      - Traffic capture: Continuous during attack
+      - Detection window: Immediate to hours
+    category: "threats"
+    source: "Network Security Research"
+    tags: ["mitm", "network-attack", "interception", "threat-scenario"]
+
+  - title: "Ransomware Attack Scenario"
+    content: |
+      IoT Ransomware Attack Pattern:
+
+      Description: Malware that locks or disables smart home devices and demands
+      payment for restoration of functionality.
+
+      Attack Stages:
+      1. Initial Compromise: Gain access to smart home network
+      2. Reconnaissance: Map connected devices and capabilities
+      3. Propagation: Spread to multiple devices
+      4. Encryption/Lockout: Disable device functionality
+      5. Ransom Demand: Display payment instructions
+
+      Attack Vectors:
+      - Compromised mobile apps
+      - Malicious firmware updates
+      - Exploited cloud account access
+      - Phishing targeting homeowners
+
+      Device Impact Scenarios:
+      - Smart locks: Physical lockout from home
+      - Thermostats: Climate control disabled
+      - Security cameras: Surveillance disabled
+      - Smart appliances: Functionality blocked
+
+      Unique IoT Challenges:
+      - Physical safety implications
+      - Limited device interfaces for recovery
+      - Difficulty in device reimaging
+      - Potential for permanent device damage
+
+      Simulation Parameters:
+      - Encryption time: Seconds per device
+      - Ransom amount: $100-$1000 (simulation)
+      - Recovery time: Hours to days
+    category: "threats"
+    source: "Ransomware Research"
+    tags: ["ransomware", "extortion", "threat-scenario"]
+
+  - title: "Physical Intrusion Facilitation Scenario"
+    content: |
+      Physical Intrusion via Smart Home Compromise:
+
+      Description: Exploiting smart home security systems to facilitate
+      unauthorized physical access to the property.
+
+      Attack Stages:
+      1. Target Selection: Identify homes with smart security
+      2. Digital Reconnaissance: Map security devices and schedules
+      3. System Compromise: Gain access to security controls
+      4. Security Bypass: Disable alarms, unlock doors
+      5. Physical Intrusion: Enter property undetected
+
+      Targeted Systems:
+      - Smart locks and deadbolts
+      - Alarm systems and sensors
+      - Security cameras
+      - Garage door openers
+      - Motion detectors
+
+      Attack Methods:
+      - Credential theft via phishing
+      - Exploitation of default passwords
+      - Replay attacks on wireless signals
+      - Cloud account compromise
+      - Insider threat (service providers)
+
+      Occupancy Detection Bypass:
+      - Analyzing energy usage patterns
+      - Monitoring device activity schedules
+      - Social media correlation
+      - Geolocation data from mobile apps
+
+      Simulation Parameters:
+      - Planning phase: Days to weeks
+      - Execution window: Minutes
+      - Evidence trails: Network logs, access logs
+    category: "threats"
+    source: "Physical Security Research"
+    tags: ["physical-intrusion", "smart-lock", "threat-scenario"]
