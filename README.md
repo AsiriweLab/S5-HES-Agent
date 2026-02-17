@@ -116,6 +116,9 @@ S5-HES-Agent/
 
 If you use S5-HES Agent in your research, please cite:
 
+pending.
+
+<! --
 ```bibtex
 @article{s5hes2026,
   title     = {S5-HES Agent: A Society 5.0-driven Agentic Framework for Smart Home Environment Simulation},
@@ -126,6 +129,7 @@ If you use S5-HES Agent in your research, please cite:
   url       = {https://github.com/AsiriweLab/S5-HES-Agent}
 }
 ```
+-->
 
 ## License
 
