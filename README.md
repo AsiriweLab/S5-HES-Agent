@@ -116,17 +116,15 @@ S5-HES-Agent/
 
 If you use S5-HES Agent in your research, please cite:
 
-pending.
-
-
 ```bibtex
-@article{s5hes2026,
-  title     = {S5-HES Agent: A Society 5.0-driven Agentic Framework for Smart Home Environment Simulation},
-  author    = {Smart-HES Research Team},
-  journal   = {IEEE Open Journal of Computer Science},
-  year      = {2026},
-  note      = {Under review},
-  url       = {https://github.com/AsiriweLab/S5-HES-Agent}
+@misc{siriweera2026s5hesagentsociety50driven,
+      title={S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation},
+      author={Akila Siriweera and Janani Rangila and Keitaro Naruse and Incheon Paik and Isuru Jayanada},
+      year={2026},
+      eprint={2603.01554},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.01554},
 }
 ```
 
