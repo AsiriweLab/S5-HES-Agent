@@ -54,4 +54,9 @@ preferred-citation:
   identifiers:
     - type: other
       value: "arXiv:2603.01554"
+      description: "arXiv eprint ID"
+  collection-title: "arXiv"
+  collection-type: "preprint"
   url: "https://arxiv.org/abs/2603.01554"
+  keywords:
+    - "cs.AI"
