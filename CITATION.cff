@@ -1,14 +1,27 @@
 cff-version: 1.2.0
-title: "S5-HES Agent: A Society 5.0-driven Agentic Framework for Smart Home Environment Simulation"
+title: "S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
-  - name: "Smart-HES Research Team"
-    affiliation: "AsiriweLab"
+  - family-names: Siriweera
+    given-names: Akila
+    affiliation: "The University of Aizu"
+  - family-names: Rangila
+    given-names: Janani
+    affiliation: "The University of Aizu"
+  - family-names: Naruse
+    given-names: Keitaro
+    affiliation: "The University of Aizu"
+  - family-names: Paik
+    given-names: Incheon
+    affiliation: "The University of Aizu"
+  - family-names: Jayanada
+    given-names: Isuru
+    affiliation: "The University of Aizu"
 repository-code: "https://github.com/AsiriweLab/S5-HES-Agent"
 license: MIT
 version: 1.0.0
-date-released: "2026-02-16"
+date-released: "2026-03-02"
 keywords:
   - smart-home
   - iot-security
@@ -23,3 +36,22 @@ abstract: >-
   LLM orchestration, hybrid retrieval-augmented generation, realistic device and
   behavioral simulation, and MITRE ATT&CK-aligned threat modeling to provide a
   comprehensive platform for smart home security research.
+preferred-citation:
+  type: article
+  title: "S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation"
+  authors:
+    - family-names: Siriweera
+      given-names: Akila
+    - family-names: Rangila
+      given-names: Janani
+    - family-names: Naruse
+      given-names: Keitaro
+    - family-names: Paik
+      given-names: Incheon
+    - family-names: Jayanada
+      given-names: Isuru
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2603.01554"
+  url: "https://arxiv.org/abs/2603.01554"
