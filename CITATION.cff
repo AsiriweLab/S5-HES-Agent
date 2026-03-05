@@ -37,7 +37,7 @@ abstract: >-
   behavioral simulation, and MITRE ATT&CK-aligned threat modeling to provide a
   comprehensive platform for smart home security research.
 preferred-citation:
-  type: article
+  type: generic
   title: "S5-HES Agent: Society 5.0-driven Agentic Framework to Democratize Smart Home Environment Simulation"
   authors:
     - family-names: Siriweera
