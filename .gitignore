@@ -34,18 +34,3 @@ knowledge_base/threat_intel/
 # Node
 node_modules/
 dist/
-
-# Backend runtime artifacts
-backend/data/
-backend/logs/
-
-# Internal (should never be present in public repo)
-.claude/
-evaluation/
-codex_evaluation/
-z_reports/
-docs/
-experiments/
-dataset_reviews/
-test_results/
-migration_exports/
